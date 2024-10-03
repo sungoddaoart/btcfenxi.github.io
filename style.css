@@ -1,0 +1,93 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.token-query {
+    margin-top: 20px;
+}
+
+#token-input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#token-price {
+    margin-top: 10px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+aside {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sidebar-left,
+.sidebar-left-2 {
+    width: 48%;
+}
+
+.sidebar-right,
+.sidebar-right-2 {
+    width: 48%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#alert-1min,
+#alert-5min,
+#alert-15min,
+#alert-1hour {
+    color: red;
+    display: none;
+    padding: 10px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .sidebar-left,
+    .sidebar-left-2,
+    .sidebar-right,
+    .sidebar-right-2 {
+        width: 100%;
+    }
+}

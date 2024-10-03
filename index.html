@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Price Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Token Price Monitoring</h1>
+
+        <!-- 代币交易对查询输入框 -->
+        <div class="token-query">
+            <input type="text" id="token-input" placeholder="Enter Token Pair (e.g., BTCUSDT)">
+            <button id="search-btn">Search</button>
+            <div id="token-price">Price: N/A</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar-left">
+            <h2>1 Minute Kline</h2>
+            <div id="alert-1min"></div>
+        </aside>
+
+        <aside class="sidebar-right">
+            <h2>5 Minute Kline</h2>
+            <div id="alert-5min"></div>
+        </aside>
+
+        <aside class="sidebar-left-2">
+            <h2>15 Minute Kline</h2>
+            <div id="alert-15min"></div>
+        </aside>
+
+        <aside class="sidebar-right-2">
+            <h2>1 Hour Kline</h2>
+            <div id="alert-1hour"></div>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
